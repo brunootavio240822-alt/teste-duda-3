@@ -64,15 +64,15 @@ btnContinuar.addEventListener("click", () => {
 const playlist = [
     {
         nome: "Still Loving You - Scorpions",
-        arquivo: "audio/musica1.mp3"
+        arquivo: "audio/musica-1.mp3"
     },
     {
         nome: "Livin' on a Prayer - Bon Jovi",
-        arquivo: "audio/musica2.mp3"
+        arquivo: "audio/musica-2.mp3"
     },
     {
         nome: "Creep - Radiohead",
-        arquivo: "audio/musica3.mp3"
+        arquivo: "audio/musica-3.mp3"
     }
 ];
 
