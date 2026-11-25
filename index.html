@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz aniversário, Duda! 🤍</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TELA INICIAL -->
+    <section class="inicio" id="inicio">
+        <div class="inicio-conteudo">
+            <div class="coracao">♥</div>
+
+            <h1>Tenho uma surpresa para você!</h1>
+            <p>Mas antes, preciso saber...</p>
+            <h2>Está preparada, Duda?</h2>
+
+            <div class="botoes">
+                <button id="btnSim">SIM!</button>
+                <button id="btnNao">NÃO</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL DE CONFIRMAÇÃO -->
+    <section class="modal escondido" id="modal">
+        <div class="modal-conteudo">
+            <div class="coracao-modal">🤍</div>
+            <h2>Tem certeza?</h2>
+            <p>Depois não adianta dizer que não estava preparada!</p>
+            <button id="btnContinuar">CONTINUAR</button>
+        </div>
+    </section>
+
+    <!-- SURPRESA -->
+    <main class="surpresa escondido" id="surpresa">
+
+        <header class="cabecalho">
+            <span class="detalhe">🤍</span>
+            <h1>Feliz aniversário, Duda!</h1>
+            <p>17 anos de uma pessoa muito especial!</p>
+        </header>
+
+        <!-- MENSAGEM -->
+        <section class="mensagem">
+            <h2>Uma mensagem para você...</h2>
+
+            <p>
+                Duda, chegou seu dia. 17 anos, e mesmo com “pouco tempo” de amizade,
+                parece que somos amigos desde que nascemos, afinal, você é a azia
+                suprema né, os poucos neurônios que temos se encaixam kkkk.
+            </p>
+
+            <p>
+                Quero que você saiba, mais do que já sabe, que pode contar sempre
+                comigo para todas as coisas de sua vida. Saiba que estarei sempre
+                ao seu lado pra te apoiar e te proteger, para vibrar com as suas
+                conquistas como se fossem minhas e pra te xingar e brigar com você
+                quando for necessário.
+            </p>
+
+            <p>
+                Você é mais que uma amiga pra mim, é uma irmã, e desejo que nossa
+                amizade seja eterna, até porque em dois anos já temos tantas
+                histórias pra contar, imagina quando nós juntarmos daqui uns anos
+                pra contar as próximas histórias pras pessoas kkkkk.
+            </p>
+
+            <p>
+                Enfim Duda, mais uma vez queria te desejar um feliz aniversário.
+                Que seu dia seja muito feliz e abençoado por Deus e Nossa Senhora.
+                Te amo muito, irmãzinha!🤍
+            </p>
+
+            <p class="assinatura">
+                atenciosamente,<br><br>
+                Brunão Latrel Aziatico.
+            </p>
+        </section>
+
+        <!-- FOTOS -->
+        <section class="fotos">
+            <h2>Nossas recordações 🤍</h2>
+
+            <div class="fotos-container">
+                <img src="img/foto1.jpg" alt="Foto especial">
+                <img src="img/foto2.jpg" alt="Foto especial">
+            </div>
+        </section>
+
+        <!-- VÍDEOS -->
+        <section class="videos">
+            <h2>Mais alguns momentos...</h2>
+
+            <div class="videos-container">
+                <video src="video/video1.mp4" controls playsinline preload="metadata"></video>
+                <video src="video/video2.mp4" controls playsinline preload="metadata"></video>
+                <video src="video/video3.mp4" controls playsinline preload="metadata"></video>
+                <video src="video/video4.mp4" controls playsinline preload="metadata"></video>
+                <video src="video/video5.mp4" controls playsinline preload="metadata"></video>
+            </div>
+        </section>
+
+        <footer>
+            <p>Com carinho, Brunão. 🤍</p>
+        </footer>
+
+    </main>
+
+    <!-- PLAYER DE MÚSICA -->
+    <div class="player escondido" id="player">
+        <div class="player-info">
+            <span id="nomeMusica">Still Loving You - Scorpions</span>
+        </div>
+
+        <div class="player-controles">
+            <button id="anterior" aria-label="Música anterior">⏮</button>
+            <button id="playPause" aria-label="Reproduzir ou pausar">❚❚</button>
+            <button id="proxima" aria-label="Próxima música">⏭</button>
+        </div>
+
+        <audio id="audio"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
